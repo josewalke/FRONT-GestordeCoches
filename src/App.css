@@ -328,6 +328,10 @@
   color: var(--secondary-color);
 }
 
+.stat-number.info {
+  color: var(--info-color);
+}
+
 .stat-label {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -504,8 +508,8 @@
 }
 
 .estado-badge.info {
-  background: var(--info-color);
-  color: white;
+  background: var(--info-color) !important;
+  color: white !important;
 }
 
 .vehicle-details {
