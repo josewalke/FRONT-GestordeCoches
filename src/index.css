@@ -1,0 +1,39 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+/* Estilos básicos para enlaces */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+/* Estilos básicos para botones */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Estilos básicos para inputs */
+input, textarea, select {
+  font-family: inherit;
+}
